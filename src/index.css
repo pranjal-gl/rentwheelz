@@ -11,3 +11,151 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.bg-image {
+  position: absolute;
+  width: 45%;
+  top: 20%;
+  left: 50%;
+}
+#root {
+  background-color: #f1f4f8;
+}
+.register, .login{
+  display: flex;
+  text-align: center;
+}
+.registration-form, .login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hundred{
+  width: 400px;
+  height: 30px;
+}
+.fifty{
+  margin: 6px;
+  width: 190px;
+  height: 30px;
+}
+.seventy {
+  width: 280px;
+  height: 30px;
+}
+.thirty {
+  width: 120px;
+  height: 36px;
+}
+
+.navbar {
+  background-color: #363062;
+  color: white;
+  position: sticky;
+  height: 70px;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links  {
+  text-decoration: none;
+  color: #435585;
+  cursor: pointer;
+  font-size: 15PX;
+}
+.navbar span {
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.card {
+  width: 360px;
+  text-align: center;
+  background-color: white;
+  box-shadow: darkgray 0px 0px 10px 0px;
+  border-radius: 10px;
+  border: none;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.login-btn {
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+  margin: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.burger {
+  font-size: 30px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.burger-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+.btn {
+  background-color: #363062;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 32px;
+    cursor: pointer;
+}
+.btn:disabled {
+  background-color: #968ce4;
+    cursor: not-allowed;
+}
+.modal-btn {
+  margin: 10px;
+}
+.reserve-input {
+  width: 400px;
+}
+.reserve-label {
+  position: relative;
+    right: 166px;
+}
+.list {
+  list-style: none;
+}
+.list p {
+  margin: 0;
+}
+.form-div {
+  background-color: white;
+  box-shadow: darkgray 0px 0px 10px 0px;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 20px;
+  margin: 20px;
+  height: 400px;
+}
+.image-div h3 {
+  margin: 0;
+}
+.image-div h3::before {
+  content: '✓  ';
+  margin: 0;
+}
+.headings {
+  position: absolute;
+  left: 43%;
+}
